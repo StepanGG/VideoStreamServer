@@ -1,0 +1,8 @@
+# MediaMTX Configuration
+# RTSP Server
+rtspAddress: :8554
+protocols: [tcp]
+paths:
+  all:
+    source: publisher
+    sourceOnDemand: no
